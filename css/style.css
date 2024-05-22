@@ -3,14 +3,18 @@ body{
     background-color:#F4EF88;
 }
 header{
-    position: relative;
-    color: black;
+    background-color: #15979e;
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
 }
-.sechd{
+
+nav{
+    background-color: #00878D;
     background: linear-gradient(#15979e,#00878D)
 }
-.jampa{
+
+h1{
     margin-left: 90px;
     font-size: 26px;
 }
@@ -18,38 +22,19 @@ header{
     text-align: center;
     margin-bottom: 100px;
 }
-.botao{
+
+.botoes button{
     color: #333;
     border: none;
     padding: 10px 10px;
-    margin-right: 50px;
-    position: absolute;
+    margin-right: 30px;
     top: 25px;
-    right: 100px;
-    border: 1px solid black;
+    border: 2px solid black;
     cursor: pointer;
-    background-color: white;
-    transition: 0.3s;
-    border-radius: 10px;
-}
-.botao:hover{
-    transform: scale(1.1);
-}
-.botao1{
-    color: #333;
-    border: none;
-    padding: 10px 10px;
-    margin-right: 50px;
-    position: absolute;
-    top: 25px;
-    right: 200px;
-    border: 1px solid black;
-    cursor: pointer;
-    background-color: white;
     transition: 0.2s;
-    border-radius: 10px;
+    border-radius: 15px;
 }
-.botao1:hover{
+.botoes button:hover{
     transform: scale(1.1);
 }
 
@@ -57,7 +42,6 @@ ul{
     display: flex;
     padding: 5px;
     margin: 0%;
-    list-style: none;
 
 }
 li{
@@ -66,12 +50,11 @@ li{
     border: 1px solid black;
     display: inline-block; 
     padding: 5px 10px; 
-    border: 1px solid black; 
+    border: 2px solid black; 
     text-align: center; 
     border-radius: 15px;
     cursor: pointer;
     transition: 0.2s;
-    position: relative;
     background-color: white;
 }
 li:hover{
@@ -86,23 +69,7 @@ nav{
     width: 100%;
     margin-bottom: 30px;
 }
-.galery {
-    width: 640px;
-    height: 360px;
-    background-color: black;
-    overflow: hidden;
-}
 
-.galery .fotos {
-    width: 500%;
-    animation-name: animacao;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-}
-
-.galery .fotos img {
-   width:19.9%;
-}
 .grid-container {
     display: grid;
     grid-template-columns: 300px 200px 300px 200px 300px;
