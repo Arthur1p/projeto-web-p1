@@ -77,8 +77,8 @@ nav{
 }
 
 .grid-container {
-    display: grid;
-    grid-template-columns: 300px 300px 300px 300px 300px 300px;
+    width: 100%;
+    display: flex;
     grid-gap: 10px;
     justify-content: center;
     margin-bottom: 15px;
