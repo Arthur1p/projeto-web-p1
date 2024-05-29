@@ -121,6 +121,7 @@ nav{
 
 .grid-container a .item:hover, a .item2:hover, a .item3:hover, a .item4:hover, a .item5:hover, a .item6:hover {
     transform: scale(1.2);
+    font-size: large;
 }
 
 .grid-container p {
